@@ -8,12 +8,13 @@ import {
 } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "SEU_DOMINIO.firebaseapp.com",
-  projectId: "SEU_PROJETO_ID",
-  storageBucket: "SEU_BUCKET.appspot.com",
-  messagingSenderId: "SEU_MESSAGING_ID",
-  appId: "SEU_APP_ID"
+  apiKey: "AIzaSyCKWxZhLhX43L1vIl1nAiE69lnkutd5QWA",
+  authDomain: "painel-apostas.firebaseapp.com",
+  projectId: "painel-apostas",
+  storageBucket: "painel-apostas.firebasestorage.app",
+  messagingSenderId: "921374000669",
+  appId: "1:921374000669:web:57e0c7b2e62b4d362368f4",
+  measurementId: "G-P21DZRKXZP"
 };
 
 const app = initializeApp(firebaseConfig);
